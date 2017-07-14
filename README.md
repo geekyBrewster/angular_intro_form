@@ -2,8 +2,8 @@
 
 Introduction to Angular JS
 **Basic**
-- [ ] Make a form: name & message inputs + submit button
-- [ ] Upon submit, add name & message to list of previous messages below
+- [x] Make a form: name & message inputs + submit button
+- [x] Upon submit, add name & message to list of previous messages below
 
 **Hard**
 - [ ] Add Bootstrap styling

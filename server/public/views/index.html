@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Angular Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="../vendors/angular.min.js" charset="utf-8"></script>
+    <script src="../scripts/client.js" charset="utf-8"></script>
+  </head>
+  <body ng-app="fabForm">
+    <h1>Fabulous Forms</h1>
+    <div class="inputForm" ng-controller="FormController as form">
+
+      <input type="text" placeholder="name" ng-model="name">
+      <input type="text" placeholder="message" ng-model="message">
+      <button ng-click="form.addInfo(name, message)">Submit</button>
+
+      <div class="messageList">
+        <div ng-repeat="content in form.allMessages">
+          <p>{{content.name}} <br> {{content.message}}</p>
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>
