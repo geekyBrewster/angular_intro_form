@@ -19,4 +19,8 @@ fabForm.controller('FormController', function(){
       console.log(form.allMessages);
   };
 
+  form.delete = function(index) {
+  form.allMessages.splice(index, 1);
+};
+
 });

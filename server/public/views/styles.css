@@ -1,3 +1,13 @@
+body {
+  background-color: antiquewhite;
+}
+
 h1 {
   color: purple;
+  font-family: fantasy;
+  font-size: 4.0em;
+}
+
+btn {
+  margin: 10px 10px;
 }

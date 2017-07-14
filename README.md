@@ -6,8 +6,8 @@ Introduction to Angular JS
 - [x] Upon submit, add name & message to list of previous messages below
 
 **Hard**
-- [ ] Add Bootstrap styling
-- [ ] Add Delete button to messages in list
+- [x] Add Bootstrap styling
+- [x] Add Delete button to messages in list
 
 **Pro**
 - [ ] Add search input box that filters messages by that keyword
